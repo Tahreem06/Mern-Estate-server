@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 });
 app.use('/api/auth', authRouter);
 app.use("/api/user", userRouter);
-app.use("/api/listings", listingRouter);
+app.use("/api/listing", listingRouter);
 
 // Error Handler
 app.use((err, req, res, next) => {
